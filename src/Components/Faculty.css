@@ -1,0 +1,32 @@
+.faculty-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: left;
+  }
+  
+  .card h2 {
+    margin: 10px 0;
+    font-size: 1.2em;
+  }
+  
+  .card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  

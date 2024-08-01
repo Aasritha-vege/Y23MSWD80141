@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+  background-color: #f0f0f0; 
+  padding: 20px;
+}
+
+.logo {
+  height: 20vmin;
+}
+
+.header, .subheader, .announcement, .copyright {
+  color: #8B0000; 
+}
+
+.header {
+  font-size: 3em;
+}
+
+.subheader {
+  font-size: 2em;
+}
+
+.announcement {
+  font-size: 1.5em;
+}
+
+.copyright {
+  font-size: 1em;
+  color: #FFF5E1; 
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 20px; 
+}
+
+.image-item {
+  flex: 1 1 200px; 
+  text-align: center;
+}
+
+.image-item img {
+  width: 100%;
+  max-width: 200px; 
+  height: 150px; 
+  object-fit: cover; 
+  border: 2px solid black; 
+}
+
+.image-item p {
+  font-size: 1.2em;
+  color: #8B0000; 
+  margin: 5px 0;
+}
+
+.container {
+  display: left;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* To center the content vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+/* src/App.css */
+
+.timetable, .assignments {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.assignments {
+  padding: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 20px; /* Add space between cards */
+}
+
+.card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
